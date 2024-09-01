@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="TngTech.ArchUnitNET.xUnit"/>
+        <PackageReference Include="xunit"/>
+        <PackageReference Include="xunit.runner.visualstudio"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\BridgingTheGap.Abstractions\BridgingTheGap.Abstractions.csproj"/>
+        <ProjectReference Include="..\..\src\BridgingTheGap.Api.Models\BridgingTheGap.Api.Models.csproj"/>
+        <ProjectReference Include="..\..\src\BridgingTheGap.Core\BridgingTheGap.Core.csproj"/>
+        <ProjectReference Include="..\..\src\BridgingTheGap.Data\BridgingTheGap.Data.csproj"/>
+        <ProjectReference Include="..\..\src\BridgingTheGap.Host.Api\BridgingTheGap.Host.Api.csproj"/>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>BridgingTheGap.Host.Api</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" />
+        <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+      <Content Update="appsettings.Development.json">
+        <DependentUpon>appsettings.json</DependentUpon>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BridgingTheGap.Abstractions\BridgingTheGap.Abstractions.csproj" />
+      <ProjectReference Include="..\BridgingTheGap.Api.Models\BridgingTheGap.Api.Models.csproj" />
+      <ProjectReference Include="..\BridgingTheGap.Core\BridgingTheGap.Core.csproj" />
+      <ProjectReference Include="..\BridgingTheGap.Data\BridgingTheGap.Data.csproj" />
+    </ItemGroup>
+
+</Project>

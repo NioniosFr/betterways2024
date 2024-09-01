@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{263D69FD-1614-4C2D-A1E1-AE5605EBE615}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yml = compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D227577D-2EF7-4FAD-99C1-F12318D7CB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Host.Api", "src\BridgingTheGap.Host.Api\BridgingTheGap.Host.Api.csproj", "{081C199E-86F2-431F-9190-46B4CE203DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "adrs", "adrs", "{1A328CD7-B4A3-4A2A-B695-AC3F7E04BA2A}"
+	ProjectSection(SolutionItems) = preProject
+		adrs\0000-Initial.md = adrs\0000-Initial.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8696AC17-9739-4BC6-A832-20A70714CD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Host.Api.Tests", "tests\BridgingTheGap.Host.Api.Tests\BridgingTheGap.Host.Api.Tests.csproj", "{C43B2531-CBFC-4083-AE89-933BD2ADB43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Data", "src\BridgingTheGap.Data\BridgingTheGap.Data.csproj", "{7A20C7E5-FCB9-43B4-BE28-9516FB227CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Core", "src\BridgingTheGap.Core\BridgingTheGap.Core.csproj", "{3FBEEDBF-3FA3-4EAE-B320-218981D84D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Abstractions", "src\BridgingTheGap.Abstractions\BridgingTheGap.Abstractions.csproj", "{CD12C4BB-BDFD-44AA-8EA3-2E33EA862004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Core.Tests", "tests\BridgingTheGap.Core.Tests\BridgingTheGap.Core.Tests.csproj", "{E86498BC-E61F-4A63-BB22-D4F0A104A63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Architecture.Tests", "tests\BridgingTheGap.Architecture.Tests\BridgingTheGap.Architecture.Tests.csproj", "{6192C0A5-9DFA-463E-B89B-0A06DFA66A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgingTheGap.Api.Models", "src\BridgingTheGap.Api.Models\BridgingTheGap.Api.Models.csproj", "{86E300FC-D916-49A7-98D2-89225F832E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{081C199E-86F2-431F-9190-46B4CE203DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081C199E-86F2-431F-9190-46B4CE203DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081C199E-86F2-431F-9190-46B4CE203DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081C199E-86F2-431F-9190-46B4CE203DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43B2531-CBFC-4083-AE89-933BD2ADB43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43B2531-CBFC-4083-AE89-933BD2ADB43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43B2531-CBFC-4083-AE89-933BD2ADB43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43B2531-CBFC-4083-AE89-933BD2ADB43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A20C7E5-FCB9-43B4-BE28-9516FB227CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A20C7E5-FCB9-43B4-BE28-9516FB227CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A20C7E5-FCB9-43B4-BE28-9516FB227CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A20C7E5-FCB9-43B4-BE28-9516FB227CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBEEDBF-3FA3-4EAE-B320-218981D84D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBEEDBF-3FA3-4EAE-B320-218981D84D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBEEDBF-3FA3-4EAE-B320-218981D84D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBEEDBF-3FA3-4EAE-B320-218981D84D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD12C4BB-BDFD-44AA-8EA3-2E33EA862004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD12C4BB-BDFD-44AA-8EA3-2E33EA862004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD12C4BB-BDFD-44AA-8EA3-2E33EA862004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD12C4BB-BDFD-44AA-8EA3-2E33EA862004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86498BC-E61F-4A63-BB22-D4F0A104A63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86498BC-E61F-4A63-BB22-D4F0A104A63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86498BC-E61F-4A63-BB22-D4F0A104A63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86498BC-E61F-4A63-BB22-D4F0A104A63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6192C0A5-9DFA-463E-B89B-0A06DFA66A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6192C0A5-9DFA-463E-B89B-0A06DFA66A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6192C0A5-9DFA-463E-B89B-0A06DFA66A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6192C0A5-9DFA-463E-B89B-0A06DFA66A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E300FC-D916-49A7-98D2-89225F832E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E300FC-D916-49A7-98D2-89225F832E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E300FC-D916-49A7-98D2-89225F832E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E300FC-D916-49A7-98D2-89225F832E38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{081C199E-86F2-431F-9190-46B4CE203DFA} = {D227577D-2EF7-4FAD-99C1-F12318D7CB22}
+		{C43B2531-CBFC-4083-AE89-933BD2ADB43B} = {8696AC17-9739-4BC6-A832-20A70714CD47}
+		{7A20C7E5-FCB9-43B4-BE28-9516FB227CC4} = {D227577D-2EF7-4FAD-99C1-F12318D7CB22}
+		{3FBEEDBF-3FA3-4EAE-B320-218981D84D69} = {D227577D-2EF7-4FAD-99C1-F12318D7CB22}
+		{CD12C4BB-BDFD-44AA-8EA3-2E33EA862004} = {D227577D-2EF7-4FAD-99C1-F12318D7CB22}
+		{E86498BC-E61F-4A63-BB22-D4F0A104A63E} = {8696AC17-9739-4BC6-A832-20A70714CD47}
+		{6192C0A5-9DFA-463E-B89B-0A06DFA66A2E} = {8696AC17-9739-4BC6-A832-20A70714CD47}
+		{86E300FC-D916-49A7-98D2-89225F832E38} = {D227577D-2EF7-4FAD-99C1-F12318D7CB22}
+	EndGlobalSection
+EndGlobal

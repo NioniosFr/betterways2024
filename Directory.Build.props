@@ -1,0 +1,41 @@
+<Project>
+    <PropertyGroup>
+        <Copyright>Copyright © 2024</Copyright>
+        <Authors>Dionysios Fryganas</Authors>
+        <VersionPrefix>0.0.1</VersionPrefix>
+        <PackageReleaseNotes>Initial Version</PackageReleaseNotes>
+        <!--    <PackageIconUrl></PackageIconUrl>-->
+        <!--    <PackageProjectUrl></PackageProjectUrl>-->
+        <!--    <PackageLicenseUrl></PackageLicenseUrl>-->
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|AnyCPU'">
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Staging|AnyCPU'">
+        <DefineConstants>TRACE</DefineConstants>
+    </PropertyGroup>
+
+
+    <PropertyGroup Condition="'$(NoWarn)'==''">
+        <NoWarn></NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <!-- NU1504: Multiple packages defined. We use a multi-build step, that's why-->
+        <NoWarn>NU1504;$(NoWarn)</NoWarn>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <!--  <Target Name="PreBuild" AfterTargets="PreBuildEvent">-->
+    <!--    <Exec Command="dotnet format whitespace &#45;&#45;verbosity diagnostic ." />-->
+    <!--    <Exec Command="dotnet format style &#45;&#45;verbosity diagnostic ." />-->
+    <!--  </Target>-->
+
+</Project>

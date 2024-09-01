@@ -1,0 +1,6 @@
+﻿services:
+  bridgingthegap.api:
+    image: bridgingthegap.api
+    build:
+      context: .
+      dockerfile: src/BridgingTheGap.Api/Dockerfile
