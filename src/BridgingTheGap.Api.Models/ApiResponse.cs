@@ -1,4 +1,4 @@
-﻿namespace BridgingTheGap.Api.Models;
+namespace BridgingTheGap.Api.Models;
 
 public class ApiResponse<T>
 {

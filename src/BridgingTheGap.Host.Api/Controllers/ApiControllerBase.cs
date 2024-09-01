@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using BridgingTheGap.Abstractions;
 using BridgingTheGap.Abstractions.Errors;

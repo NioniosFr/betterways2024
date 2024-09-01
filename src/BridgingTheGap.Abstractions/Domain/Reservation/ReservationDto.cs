@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace BridgingTheGap.Abstractions.Domain.Reservation;
 

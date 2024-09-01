@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using BridgingTheGap.Abstractions;
 using BridgingTheGap.Abstractions.Domain.Reservation;
 using MediatR;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using BridgingTheGap.Abstractions.Errors;
 using BridgingTheGap.Api.Models;
 

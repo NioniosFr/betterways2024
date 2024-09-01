@@ -1,4 +1,4 @@
-﻿using BridgingTheGap.Data.Reservation;
+using BridgingTheGap.Data.Reservation;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BridgingTheGap.Data;
